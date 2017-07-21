@@ -1,0 +1,13 @@
+/*text color*/
+.drag{
+	color:#fff;
+}
+.theme-bg{
+	
+ height:550px;
+ background-image:url('../images/background.png');
+ background-position: center;
+ background-size: cover;
+ min-height:100%;
+ overflow: hidden;
+}

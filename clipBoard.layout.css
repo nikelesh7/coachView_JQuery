@@ -1,0 +1,62 @@
+/*positions of offence players*/
+#layout-qb{
+
+  margin:230px 860px;
+  position:absolute;
+  
+}
+#layout-rb{
+  margin:180px 990px;
+  position:absolute;	
+}
+#layout-wr1{
+  margin:-20px 910px;
+  position:absolute;
+}
+#layout-wr2{
+  margin:400px 910px;
+  position:absolute;
+}
+#layout-te{
+  margin:360px 730px;
+  position:absolute;
+}
+#layout-c{
+  margin:180px 730px;
+  position:absolute;
+}
+
+/*positions of Defense players*/
+#layout-dl1{
+  margin:200px 550px;
+  position:absolute;	
+}
+#layout-dl2{
+  margin:310px 550px;
+  position:absolute;		
+}
+#layout-cb1{
+  margin:10px 460px;
+  position:absolute;	
+}
+#layout-cb2{
+  margin:380px 460px;
+  position:absolute;	
+}
+#layout-lb{
+  margin:300px 380px;
+  position:absolute;	
+}
+#layout-s{
+  margin:350px 280px;
+  position:absolute;	
+}
+.layout-lt{
+float: left;
+position:absolute;
+}
+.layout-rt{
+float: right;
+}
+
+

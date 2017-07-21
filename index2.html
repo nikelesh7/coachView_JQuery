@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coach Clip Board</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/clipBoard.base.css">
+<link rel="stylesheet" href="./css/clipBoard.state.css">
+<link rel="stylesheet" href="./css/clipBoard.layout.css">
+<link rel="stylesheet" href="./css/clipBoard.module.css">
+<link rel="stylesheet" href="./css/clipBoard.theme.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Coach view</h1>
+<!--Ground layout-->
+<div class="w3-panel  w3-card-4 theme-bg" >
+<button class="module-button layout-rt">Offense</button>
+<button class="module-button layout-lt">Deffence</button>
+
+<!--offence c player-->
+<div class="drag" id="layout-c">
+<p>Travis Frederick</p>
+<div class="module-offencePlayer"style="text-align:center;">
+<p>72</p>
+
+</div>
+<p>C</p>
+</div>
+<!--offence qb player-->
+<div class="drag" id="layout-qb">
+<p>Dak Prescott</p>
+<div class="module-offencePlayer"style="text-align:center;">
+<p>4</p>
+
+</div>
+<p>QB</p>
+</div>
+<!--offence WR1 player-->
+<div class="drag" id="layout-wr1">
+<p>Dez Bryan</p>
+<div class="module-offencePlayer"style="text-align:center;">
+<p>88</p>
+
+</div>
+<p>WR</p>
+</div>
+<!--offence WR2 player-->
+<div class="drag" id="layout-wr2">
+<p>Terrance Williams</p>
+<div class="module-offencePlayer"style="text-align:center;">
+<p>83</p>
+
+</div>
+<p>WR</p>
+</div>
+<!--offence TE player-->
+<div class="drag" id="layout-te">
+<p> Jason Witten</p>
+<div class="module-offencePlayer"style="text-align:center;">
+<p>82</p>
+
+</div>
+<p>TE</p>
+</div>
+<!--offence RB player-->
+<div class="drag" id="layout-rb">
+<p> Ezekiel Elliot</p>
+<div class="module-offencePlayer"style="text-align:center;">
+<p>21</p>
+
+</div>
+<p>RB</p>
+</div>
+
+<!--deffence DL1 player-->
+<div class="drag" id="layout-dl1">
+<p> David Irving</p>
+<div class="module-deffencePlayer"style="text-align:center;">
+<p>98</p>
+
+</div>
+<p>DL</p>
+</div>
+<!--deffence DL2 player-->
+<div class="drag" id="layout-dl2">
+<p>  Tyrone Crawford</p>
+<div class="module-deffencePlayer"style="text-align:center;">
+<p>95</p>
+
+</div>
+<p>DL</p>
+</div>
+<!--deffence CB1 player-->
+<div class="drag" id="layout-cb1">
+<p>  Chidobe Awuzi</p>
+<div class="module-deffencePlayer"style="text-align:center;">
+<p>33</p>
+
+</div>
+<p>CB</p>
+</div>
+
+<!--deffence CB2 player-->
+<div class="drag" id="layout-cb2">
+<p>  Jourdan Lewis</p>
+<div class="module-deffencePlayer"style="text-align:center;">
+<p>27</p>
+
+</div>
+<p>CB</p>
+</div>
+<!--deffence LB player-->
+<div class="drag" id="layout-lb">
+<p>  Sean Lee</p>
+<div class="module-deffencePlayer"style="text-align:center;">
+<p>50</p>
+
+</div>
+<p>LB</p>
+</div>
+<!--deffence S player-->
+<div class="drag" id="layout-s">
+<p>  Byron Jones</p>
+<div class="module-deffencePlayer"style="text-align:center;">
+<p>31</p>
+
+</div>
+<p>S</p>
+</div>
+
+<div>
+<script src="./scripts/coachView.js"></script>
+</body>
+</html> 
